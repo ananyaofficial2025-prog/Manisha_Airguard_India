@@ -9,11 +9,11 @@ A machine learning project that analyses air quality data of Indian cities, pred
 | Field | Details |
 |---|---|
 | **Submitted by** | Manisha |
-| **Roll No.** | [Enter Roll No] |
-| **Section** | [Enter Section] |
+| **Roll No.** | 10 |
+| **Section** | NK |
 | **Course** | INT234: Predictive Analytics |
-| **Teacher** | [Enter Teacher Name] |
-| **University** | [Enter University] |
+| **Teacher** | Mrinalini Rana |
+| **University** |Lovely Professional University|
 
 ---
 
@@ -390,6 +390,6 @@ AirGuard India shows how predictive analytics can turn raw pollution data into u
 
 ## Acknowledgement
 
-I thank my teacher **[Enter Teacher Name]** for the guidance and support during this project.
+I thank my teacher **Mrinalini Rana** for the guidance and support during this project.
 
 **Project by Manisha | INT234 Predictive Analytics**
