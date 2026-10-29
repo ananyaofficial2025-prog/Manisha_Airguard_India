@@ -1,5 +1,10 @@
 # AirGuard India: Air Quality Analysis and Pollution Alert Prediction
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 A machine learning project that analyses air quality data of Indian cities, predicts the **AQI (Air Quality Index)**, and raises a **pollution alert** when the air quality is *Poor* or worse.
 
 ---
@@ -10,31 +15,34 @@ A machine learning project that analyses air quality data of Indian cities, pred
 |---|---|
 | **Submitted by** | Manisha |
 | **Roll No.** | 10 |
-| **Section** | NK |
+| **Section** | NK|
 | **Course** | INT234: Predictive Analytics |
-| **Teacher** | Mrinalini Rana |
-| **University** |Lovely Professional University|
+| **Teacher** |Dr. Mrinalini Rana |
+| **University** | LPU |
 
 ---
 
 ## Table of Contents
 
 1. [Abstract](#abstract)
-2. [Problem Statement](#problem-statement)
-3. [Aim and Objectives](#aim-and-objectives)
-4. [Dataset Description](#dataset-description)
-5. [Tech Stack](#tech-stack)
-6. [Syllabus Mapping](#syllabus-mapping)
-7. [Methodology and Working](#methodology-and-working)
-8. [Project Structure](#project-structure)
-9. [How to Run](#how-to-run)
-10. [Results](#results)
-11. [Prediction Demo](#prediction-demo)
-12. [Applications](#applications)
-13. [Limitations](#limitations)
-14. [Future Scope](#future-scope)
-15. [Conclusion](#conclusion)
-16. [References](#references)
+2. [Key Features](#key-features)
+3. [Problem Statement](#problem-statement)
+4. [Aim and Objectives](#aim-and-objectives)
+5. [Dataset Description](#dataset-description)
+6. [Tech Stack](#tech-stack)
+7. [Syllabus Mapping](#syllabus-mapping)
+8. [Methodology and Working](#methodology-and-working)
+9. [Project Structure](#project-structure)
+10. [How to Run](#how-to-run)
+11. [Results](#results)
+12. [Output Gallery](#output-gallery)
+13. [Prediction Demo](#prediction-demo)
+14. [Applications](#applications)
+15. [Limitations](#limitations)
+16. [Future Scope](#future-scope)
+17. [Conclusion](#conclusion)
+18. [References](#references)
+19. [Author](#author)
 
 ---
 
@@ -43,6 +51,21 @@ A machine learning project that analyses air quality data of Indian cities, pred
 Air pollution is one of the biggest health and environmental problems in India. This project, **AirGuard India**, uses the publicly available *Air Quality Data in India (2015-2020)* dataset to study how different pollutants (PM2.5, PM10, NO2, SO2, CO, O3 and others) affect air quality across Indian cities.
 
 The project covers the complete predictive analytics workflow: data cleaning and preprocessing, exploratory data analysis (EDA), regression to predict the numerical AQI value, classification to predict whether a pollution alert should be raised, clustering to group days by pollution level, association rule mining to find pollution patterns, a foundational neural network, and model performance improvement using cross-validation and hyperparameter tuning.
+
+---
+
+## Key Features
+
+- Complete predictive analytics pipeline in a single Jupyter Notebook
+- Cleans real-world data with heavy missing values and outliers
+- Predicts the **AQI value** (regression) and the **pollution alert** (classification)
+- Compares 6 classification models and 5 regression models side by side
+- Finds hidden pollution groups using **K-Means** and **Hierarchical clustering**
+- Discovers pollution patterns using **Apriori association rules**
+- Includes a simple **neural network** (MLP) built with scikit-learn
+- Improves models using **cross-validation** and **GridSearchCV**
+- Easy-to-use **prediction function** that gives the AQI, category and alert message
+- Beginner-friendly, well-commented code with a markdown explanation before every step
 
 ---
 
@@ -321,6 +344,21 @@ Python 3.9 or above is recommended. The notebook runs in a few minutes on a norm
 
 ---
 
+## Output Gallery
+
+> Add the charts after running the notebook. Charts are saved in the `outputs/` folder.
+
+| Chart | Preview |
+|---|---|
+| Correlation heatmap | ![Correlation Heatmap](outputs/correlation_heatmap.png) |
+| Yearly AQI trend | ![Yearly AQI Trend](outputs/yearly_aqi_trend.png) |
+| ROC curves of all models | ![ROC Curves](outputs/roc_curves.png) |
+| K-Means elbow plot | ![K-Means Elbow](outputs/kmeans_elbow.png) |
+
+*If any image does not show, check that the file name matches the one inside the `outputs/` folder.*
+
+---
+
 ## Prediction Demo
 
 The notebook contains a function that takes pollutant readings and returns the result:
@@ -390,6 +428,18 @@ AirGuard India shows how predictive analytics can turn raw pollution data into u
 
 ## Acknowledgement
 
-I thank my teacher **Mrinalini Rana** for the guidance and support during this project.
+I thank my teacher **Dr. Mrinalini Rana** for the guidance and support during this project.
+
+---
+
+## Author
+
+**Manisha**
+Course: INT234 Predictive Analytics
+University: LPU
+
+## License
+
+This project is created for educational purposes. The dataset belongs to its original owners on Kaggle.
 
 **Project by Manisha | INT234 Predictive Analytics**
