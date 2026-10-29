@@ -1,6 +1,6 @@
 # AirGuard India: Air Quality Analysis and Pollution Alert Prediction
 
-A machine learning project that analyses air quality data of Indian cities, predicts the **AQI (Air Quality Index)**, and raises a **pollution alert** when the air quality is *Poor* or worse.
+A machine learning project prepared by Manisha, that analyses air quality data of Indian cities, predicts the **AQI (Air Quality Index)**, and raises a **pollution alert** when the air quality is *Poor* or worse.
 
 ---
 
