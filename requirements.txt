@@ -5,3 +5,4 @@ seaborn
 scikit-learn
 statsmodels
 python-docx
+Spyder notebook
